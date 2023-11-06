@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script type="module" src="javascript/main.js" defer></script>
+  </head>
+   <body>
+      <!-- <div class="calculator"> -->
+        <div class="calculator-output" id="output">0</div>
+        <div class="calculator-keys">
+          <button class="calculator-key calculator-key-operator" id="plus-key">+</button>
+          <button class="calculator-key calculator-key-operator" id="minus-key">-</button>
+          <button class="calculator-key calculator-key-operator" id="mult-key">&#42;</button>
+          <button class="calculator-key calculator-key-operator" id="div-key">&#xf7;</button>
+
+          <button class="calculator-key" id="zero-key">0</button>
+          <button class="calculator-key" id="one-key">1</button>
+          <button class="calculator-key" id="two-key">2</button>
+          <button class="calculator-key" id="three-key">3</button>
+          <button class="calculator-key" id="four-key">4</button>
+          <button class="calculator-key" id="five-key">5</button>
+          <button class="calculator-key" id="six-key">6</button>
+          <button class="calculator-key" id="seven-key">7</button>
+          <button class="calculator-key" id="eight-key">8</button>
+          <button class="calculator-key" id="nign-key">9</button>
+          <button class="calculator-key" id="dot-key">.</button>
+          <button class="calculator-key" id="clear-key">AC</button>
+        
+          <button class="calculator-key calculator-key-enter" id="enter-key">=</button>
+        </div>
+      <!-- </div> -->
+    <script>
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+      });
+    </script>
+   </body>
+</html>
